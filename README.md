@@ -8,7 +8,7 @@ We will begin with creating PyTorch Model using previously trained model artifac
 
 ## How to execute the notebook?
 
-Clone the repositiory and run the notebook 'detect-data-drift-nlp-custom-model-monitor.ipynb' with notebook kernel set to `conda_pytorch_p36` or `Data Science Kernel` in case of running it on SageMaker Studio 
+Clone the repositiory and run the notebook `detect-data-drift-nlp-custom-model-monitor.ipynb` with notebook kernel set to `conda_pytorch_p36` or `Data Science Kernel` in case of running it on SageMaker Studio 
 
 ## Security
 
