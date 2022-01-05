@@ -1,4 +1,4 @@
-## Detecting Data Drift in NLP using SageMaker Custom Model Monitor
+## Detecting NLP Data Drift using SageMaker Custom Model Monitor
 
 This Example is an extension of Fine-tuning a PyTorch BERT model and deploying it with Amazon Elastic Inference on Amazon SageMaker aws blog [post](https://aws.amazon.com/blogs/machine-learning/fine-tuning-a-pytorch-bert-model-and-deploying-it-with-amazon-elastic-inference-on-amazon-sagemaker/). We will use the dataset and model thats outlined in this blog and extend it to demo custom model monitoring capability using [SageMaker Model Monitor](https://docs.aws.amazon.com/sagemaker/latest/dg/model-monitor.html)
 
