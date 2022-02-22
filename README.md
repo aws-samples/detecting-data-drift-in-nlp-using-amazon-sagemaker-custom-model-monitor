@@ -1,5 +1,7 @@
 ## Detecting NLP Data Drift using SageMaker Custom Model Monitor
 
+Corresponding blog: https://aws.amazon.com/blogs/machine-learning/detect-nlp-data-drift-using-custom-amazon-sagemaker-model-monitor/
+
 This Example is an extension of Fine-tuning a PyTorch BERT model and deploying it with Amazon Elastic Inference on Amazon SageMaker aws blog [post](https://aws.amazon.com/blogs/machine-learning/fine-tuning-a-pytorch-bert-model-and-deploying-it-with-amazon-elastic-inference-on-amazon-sagemaker/). We will use the dataset and model thats outlined in this blog and extend it to demo custom model monitoring capability using [SageMaker Model Monitor](https://docs.aws.amazon.com/sagemaker/latest/dg/model-monitor.html)
 
 Detecting data drift in NLP is a challenging task. Model monitoring becomes an important aspect in MLOPs because the change in data distribution during inference time can cause Model decay. ML models are probabilistic and trained on certain corpus of historical data. Drift is distribution change between the training and deployment data, which is concerning if model performance changes.
